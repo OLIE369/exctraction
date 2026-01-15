@@ -14,7 +14,36 @@ class PortalJobScraper:
         self.skills_keywords = {
             "Languages": [r"Python", r"Java", r"JavaScript", r"PHP", r"C#"],
             "Frameworks": [r"Django", r"Flask", r"React", r"Angular", r"Node\.js", r"Symfony"],
-            "DevOps": [r"Docker", r"Kubernetes", r"Git", r"AWS", r"CI/CD"]
+            "DevOps": [r"Docker", r"Kubernetes", r"Git", r"AWS", r"CI/CD"],
+            "Bases de données": [r"MySQL", r"PostgreSQL", r"MongoDB", r"Oracle", r"SQL Server"],   
+            "Power BI": [r"PowerBI", r"power bi"],
+            "React": ["ReactJS", "React.js", "REACT", "react", "react use"],
+            "Python": ["Python 3", "PYTHON", "python"],
+            "Java": ["JAVA", "Java 8", "J2EE", "JEE"],
+            "JavaScript": ["JS", "Javascript", "JAVASCRIPT", "EcmaScript"],
+            "TypeScript": ["TS", "Typescript", "TYPESCRIPT"],
+            "Node.js": ["Node", "NodeJS", "NODEJS", "node.js"],
+            "SQL": ["sql", "Structured Query Language"],
+            "NoSQL": ["nosql", "MongoDB", "CouchDB"], # Example of grouping
+            "HTML/CSS": ["HTML", "CSS", "HTML5", "CSS3", "html", "css"],
+            "PHP": ["php", "PHP 7", "PHP 8"],
+            "Laravel": ["laravel", "LARAVEL"],
+            "Symfony": ["symfony", "SYMFONY"],
+            "Angular": ["AngularJS", "angular", "ANGULAR"],
+            "Vue.js": ["Vue", "VueJS", "vue.js", "VUE"],
+            "Docker": ["docker", "DOCKER"],
+            "Kubernetes": ["k8s", "K8s", "kubernetes"],
+            "AWS": ["Amazon Web Services", "aws"],
+            "Azure": ["azure", "Microsoft Azure"],
+            "Git": ["git", "GIT", "Github", "Gitlab"],
+            "Linux": ["linux", "LINUX", "Ubuntu", "CentOS", "Debian"],
+            "C#": ["c#", "C_Sharp", ".NET", "dotNET"],
+            "C++": ["c++", "cpp"],
+            "Go": ["Golang", "go", "GO"],
+            "Rust": ["rust", "RUST"],
+            "Excel": ["Microsoft Excel", "excel", "EXCEL", "Spreadsheets"],
+            "Power BI": ["PowerBI", "power bi"],
+
         }
 
     def _get_headers(self):

@@ -38,7 +38,7 @@ def index():
         }
     })
 
-@app.route('/health', methods=['GET'])
+@app.route('/', methods=['GET'])
 def health():
     return jsonify({"status": "online", "service": "job-scraper"})
 
